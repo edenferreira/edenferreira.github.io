@@ -27,16 +27,26 @@
 }
 
 .site-info {
-    display: inline-block;
+    display: block;
     float: none;
     vertical-align: top;
     margin:{
-        left: 45px;
+        left: 15px;
     };
     padding:{
         top: 30px;
     };
 }
+
+@media only screen and (min-width: 768px) {
+    .site-info {
+        display: inline-block;
+        margin:{
+            left: 45px;
+        };
+    }
+}
+
 
 .site-description {
     margin: 0 0 0 -8px;
@@ -196,7 +206,7 @@ button.button-primary:focus {
         
         a {
             margin: {
-                right: 15px;
+                right: 20px;
                 left: 0;
             }
         }
