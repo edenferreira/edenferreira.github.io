@@ -49,17 +49,17 @@
         &:hover {
             color: darken($mono-color, 20);
         }
-        
-        .button {
-            padding: 0 15px 0 15px;
+    }
+
+    .button {
+        padding: 0 15px 0 15px;
+        color: $mono-color-light;
+        border:{
             color: $mono-color-light;
-            border:{
-                color: $mono-color-light;
-            };
-            
-            &:hover {
-                background-color: inherit;
-            }
+        };
+        
+        &:hover {
+            background-color: inherit;
         }
     }
 }
