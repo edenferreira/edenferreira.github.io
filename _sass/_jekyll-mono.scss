@@ -54,13 +54,11 @@
     .button.button-primary {
         padding: 0 15px 0 15px;
         color: $mono-color-light;
-        border:{
-            color: $mono-color-light;
-        };
+        border: 1px solid $mono-color-light;
         
         &:hover {
             background-color: inherit;
-            border-color: inherit;
+            border: 1px solid darken($mono-color-light, 30);
             color: darken($mono-color-light, 30);
         }
     }
