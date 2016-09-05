@@ -39,7 +39,7 @@ $h3-color: $text-color-medium;
 $h4-color: $text-color-light; 
 
 // Your avatar
-$avatar: "/images/avatar.jpg";
+$avatar: "https://avatars1.githubusercontent.com/u/5878605?v=3&s=460";
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;
@@ -67,8 +67,8 @@ $post-a-hover-color: $text-color-hover;
 $post-meta-text-color: $text-color;
 $post-meta-a-text-color: $text-color-medium;
 
-$post-button-color: $mono-color-light;
-$post-button-hover-color: darken($mono-color-light, 30);
+$post-button-color: $mono-color-medium;
+$post-button-hover-color: darken($mono-color-medium, 20);
 $post-button-border: 1px solid $post-button-color;
 $post-button-border-hover: 1px solid $post-button-hover-color;
 
