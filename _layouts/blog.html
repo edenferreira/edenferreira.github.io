@@ -18,8 +18,8 @@
 
   <body>
     {% include header.html %}
-    
-    <div class="">    
+
+    <div id="main" role="main" class="container">
       <div class="">
         <div class="post-heading">
             <h1>{{page.title}}</h1>
@@ -28,12 +28,8 @@
             <a href="{{ site.baseurl }}/"> { Return to Blog }</a>
             </span>
         </div>
-            
       </div>
-    </div>
-    
-
-    <div id="main" role="main" class="container">
+      
       {{ content }}
     </div>
 
