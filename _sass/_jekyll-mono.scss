@@ -181,6 +181,9 @@ button.button-primary:focus {
     width: 100%;
     text-align: center;
     margin: 0;
+    padding:{
+        left: 60px;
+    };
     
     .navbar__list {
         list-style: none;
