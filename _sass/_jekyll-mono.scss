@@ -23,16 +23,20 @@
 }
 
 .site-info__wrapper {
-    width: 100%;
+    text-align: center;
 }
 
 .site-info {
     display: inline-block;
     float: none;
-    height: 100%;
     margin:{
-        right: 15px;
+        left: 60px;
+        top: 30px;
     };
+}
+
+.site-description {
+    margin: 0 0 0 -8px;
 }
 
 .post {
@@ -202,6 +206,7 @@ button.button-primary:focus {
 
 .ch-grid {
     padding: 0;
+    margin: 0;
     list-style: none;
     display: inline-block;
     text-align: center;
