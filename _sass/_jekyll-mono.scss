@@ -155,7 +155,11 @@ button.button-primary:focus {
     
     .meta {
         font-size: 0.7em;
-        color: $mono-color-light;
+        color: $post-meta-text-color;
+        
+        a {
+            color: $post-meta-a-text-color;
+        }
     }
     
     h1 {
