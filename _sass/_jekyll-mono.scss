@@ -127,17 +127,22 @@ button.button-primary:focus {
         position: relative;
         z-index: 2;
     }
+}
+
+.post-heading {
+    margin-bottom: 30px;
     
-    .post-heading {
-        padding: 100px 0 50px;
-        color: $white;
-        
-        h1 {
-            color: $white;
-            font-size: 36px;
-            line-height: 1.5;
-            font-family: $raleway;
-        }
+    meta {
+        font-size: 0.7em;
+    }
+    
+    h1 {
+        font-size: 36px;
+        line-height: 1.5;
+        font-family: $raleway;
+        margin:{
+            bottom: 0;
+        };
     }
 }
 
