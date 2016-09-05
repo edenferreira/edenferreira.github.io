@@ -63,12 +63,15 @@ $site-name-a-hover-color: darken($site-name-a-color, 30);
 
 $post-a-color: $text-color;
 $post-a-hover-color: $text-color-hover;
-$post-meta-text-color: $text-color-light;
+
+$post-meta-text-color: $text-color-medium;
 $post-meta-a-text-color: $text-color;
+
 $post-button-color: $mono-color-light;
 $post-button-hover-color: darken($mono-color-light, 30);
 $post-button-border: 1px solid $post-button-color;
 $post-button-border-hover: 1px solid $post-button-hover-color;
+
 $post-heading-a-color: $text-color;
 $post-heading-a-hover-color: $text-color-hover;
 
