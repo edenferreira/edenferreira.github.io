@@ -33,10 +33,10 @@ $text-color-light: lighten($text-color, 70);
 
 // Heading colors
 // You can play around with these too!
-$h1-color: $mono-color;
-$h2-color: $mono-color; 
-$h3-color: $darkerGray; 
-$h4-color: $gray; 
+$h1-color: $text-color;
+$h2-color: $text-color; 
+$h3-color: $text-color-medium; 
+$h4-color: $text-color-light; 
 
 // Your avatar
 $avatar: "/images/avatar.jpg";
@@ -73,9 +73,12 @@ $post-heading-a-hover-color: $text-color-hover;
 
 $intro-header-bg-color: $mono-color;
 $intro-header-container-bg-color: $intro-header-bg-color;
+
 $fixed-navbar-bg-color: $intro-header-bg-color;
+
 $svg-icon-color: $mono-color;
 $svg-icon-color-hover: $mono-color-hover;
+
 $ch-info-p-color: $white;
 $ch-info-h3-color: $black;
 $ch-info-p-a-color: $text-color;
