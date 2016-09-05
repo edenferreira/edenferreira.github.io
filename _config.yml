@@ -13,6 +13,15 @@ description: Desenvolvedor Fullstack
 # Flags below are optional
 #
 
+#navigation
+navigation:
+  - text: Blog
+    url:
+  - text: About
+    url: about
+  - text: Projects
+    url: projects
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
