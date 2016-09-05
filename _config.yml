@@ -17,8 +17,8 @@ description: Desenvolvedor Fullstack
 navigation:
   - text: Blog
     url:
-  - text: About
-    url: about
+  - text: Sobre
+    url: sobre
   - text: Projects
     url: projects
 
