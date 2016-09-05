@@ -29,8 +29,11 @@
 .site-info {
     display: inline-block;
     float: none;
+    vertical-align: top;
     margin:{
         left: 60px;
+    };
+    padding:{
         top: 30px;
     };
 }
@@ -118,6 +121,7 @@ button.button-primary:focus {
 .intro-header {
     border-top: 5px solid white;
     background-color: $mono-color;
+    z-index: 2;
 }
 
 .intro-header .post-heading {
@@ -130,6 +134,13 @@ button.button-primary:focus {
     font-size: 36px;
     line-height: 1.5;
     font-family: $raleway;
+}
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    background: $mono-color;
+    z-index: 1;
 }
 
 .navbar__wrapper {

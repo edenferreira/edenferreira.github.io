@@ -1,3 +1,12 @@
+<div class="fixed-navbar">
+    <nav class="navbar__wrapper">
+        <ul class="navbar__list">
+            {% for link in site.navigation %}
+            <li class="navbar__list-item"><a href="{{ site.baseurl }}/{{link.url}}">/{{link.text}}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</div>
 <div class="intro-header">
     <div class="container">
         <div class="space-tiny"></div>
