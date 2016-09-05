@@ -51,13 +51,12 @@
             </ul>
         </div>
 
-             <div class="space-extra-small"></div>
+             <div class="space-tiny"></div>
 
              <nav class="navbar__wrapper">
                <ul class="navbar__list">
                  {% for link in site.navigation %}
-                   <li class="navbar__list-item"><a href="{{ site.baseurl }}/{{link.url}}">{{link.text}}</a></li>
-                   <li class="navbar__list-item">//</li>
+                   <li class="navbar__list-item"><a href="{{ site.baseurl }}/{{link.url}}">/{{link.text}}</a></li>
                  {% endfor %}
                </ul>
              </nav>
