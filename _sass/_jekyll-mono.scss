@@ -43,6 +43,12 @@
 }
 
 .post {
+    text-align: right;
+
+    h1, .entry {
+        text-align: left;
+    }
+
     a {
         color: $mono-color;
         
