@@ -107,6 +107,8 @@ button.button-primary:focus {
 }
 
 .navbar__wrapper {
+    display: block;
+	width: 100%;
 	text-align: center;
 	
 	.navbar__list {
