@@ -2,26 +2,28 @@
     <div class="container">
         <div class="space-extra-small"></div>
 
-        <ul class="ch-grid">
-            <li>
-                <div class="ch-item ch-img-1">
-                    <div class="ch-info-wrap">
-                        <div class="ch-info">
-                            <div class="ch-info-front ch-img-1"></div>
-                            <div class="ch-info-back">
-                                <h3>{{site.name}}</h3>
-                                <p>
-                                    </br><a href="https://linkedin.com/in/{{ site.footer-links.linkedin }}">View on LinkedIn</a></p>
+        <div class="site-info__wrapper">
+            <ul class="ch-grid">
+                <li>
+                    <div class="ch-item ch-img-1">
+                        <div class="ch-info-wrap">
+                            <div class="ch-info">
+                                <div class="ch-info-front ch-img-1"></div>
+                                <div class="ch-info-back">
+                                    <h3>{{site.name}}</h3>
+                                    <p>
+                                        </br><a href="https://linkedin.com/in/{{ site.footer-links.linkedin }}">View on LinkedIn</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </li>
-        </ul>
-        
-        <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+                </li>
+            </ul>
+            
+            <div class="site-info">
+                <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+                <p class="site-description">{{ site.description }}</p>
+            </div>
         </div>
 
         <div class="space-tiny"></div>

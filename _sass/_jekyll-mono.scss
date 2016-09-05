@@ -22,8 +22,17 @@
     }
 }
 
+.site-info__wrapper {
+    width: 100%;
+}
+
 .site-info {
     display: inline-block;
+    float: none;
+    height: 100%;
+    margin:{
+        right: 15px;
+    };
 }
 
 .post {
