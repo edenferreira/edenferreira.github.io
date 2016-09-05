@@ -22,7 +22,7 @@ navigation:
   - text: Projects
     url: projects
 
-navigationText:
+navigation-text:
   more: Mais...
 
 # Includes an icon in the footer for each username you enter
