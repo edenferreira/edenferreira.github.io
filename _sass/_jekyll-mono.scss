@@ -211,7 +211,15 @@ button.button-primary:focus {
 */
 
 .svg-icon {
+    font-size: 0.8em;
+    padding:{
+        left: 12px;
+    };
+    
     a {
+        margin:{
+            right: 12px;
+        }
         color: darken($mono-color, 10);
         cursor: pointer;
         &:hover {
