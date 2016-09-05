@@ -44,14 +44,18 @@
 
 .post {
     a {
-        color: $mono-color-light;
+        color: $mono-color;
         
         &:hover {
-            color: darken($mono-color-light, 20);
+            color: darken($mono-color, 20);
         }
         
         .button {
             padding: 0 15px 0 15px;
+            color: $mono-color-light;
+            border:{
+                color: $mono-color-light;
+            };
             
             &:hover {
                 background-color: inherit;
