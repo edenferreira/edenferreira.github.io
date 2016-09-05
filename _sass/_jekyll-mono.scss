@@ -190,9 +190,8 @@ button.button-primary:focus {
 .ch-grid {
     padding: 0;
     list-style: none;
-    display: block;
+    display: inline-block;
     text-align: center;
-    width: 100%;
 }
 
 .ch-grid:after,
