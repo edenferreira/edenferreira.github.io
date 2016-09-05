@@ -3,7 +3,7 @@
         <nav class="navbar__wrapper">
             <ul class="navbar__list">
                 {% for link in site.navigation %}
-                <li class="navbar__list-item"><a href="{{ site.baseurl }}/{{link.url}}">/{{link.text}}</a></li>
+                <li class="navbar__list-item"><a href="{{site.baseurl}}/{{link.url}}">/{{link.text}}</a></li>
                 {% endfor %}
             </ul>
         </nav>
@@ -14,7 +14,7 @@
         <div class="site-info__wrapper">
             <ul class="ch-grid">
                 <li>
-                    <a href="{{site.baseurl}}">
+                    <a href="{{site.baseurl}}/">
                         <img class="ch-item ch-img-1"
                              src="https://avatars1.githubusercontent.com/u/5878605?v=3&s=460">
                         </img>
