@@ -19,7 +19,8 @@ $blue: #4183C4;
 // Some cool main theme colors(violet:#8476ad;blue:#5cacee;red:#ff7373,#ff6f69;green:#6acf64,#2ddbb3;orange:#ffa268)
 
 // $mono-color: #090909;                // main theme color(header, links, footer icons, buttons, post-title)
-$mono-color: darken(#3F51B5, 20);
+// $mono-color: darken(#3F51B5, 20);
+$mono-color: #567568;
 $mono-color-hover: darken($mono-color, 20);
 $mono-color-medium: lighten($mono-color, 25);
 $mono-color-light: lighten($mono-color, 50);
