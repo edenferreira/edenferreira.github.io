@@ -13,11 +13,11 @@
 
 .site-name {
     a {
-        color: $white;
+        color: $site-name-a-color;
         text-decoration: none;
         cursor: pointer;
         &:hover {
-            color: darken($navbar-hover-color, 20);
+            color: $site-name-a-hover-color;
         }
     }
 }
@@ -50,34 +50,34 @@
     }
 
     a {
-        color: $mono-color;
+        color: $post-a-color;
         
         &:hover {
-            color: darken($mono-color, 20);
+            color: $post-a-hover-color;
         }
     }
 
     .button.button-primary {
         padding: 0 15px 0 15px;
-        color: $mono-color-light;
-        border: 1px solid $mono-color-light;
+        color: $post-button-color;
+        border: $post-button-border;
         margin:{
             right: 15px;
         };
         
         &:hover {
             background-color: inherit;
-            border: 1px solid darken($mono-color-light, 30);
-            color: darken($mono-color-light, 30);
+            border: $post-button-border-hover;
+            color: $post-button-hover-color;
         }
     }
 }
 
 .post-heading {
     a {
-        color: $hl-color;
+        color: $post-heading-a-color;
         &:hover {
-            color: darken($hl-color, 20);
+            color: $post-heading-a-hover-color;
         }
     }
 }
@@ -121,18 +121,18 @@ button:focus,
 .button.button-primary,
 button.button-primary,
 {
-    color: $mono-color;
+    color: $button-color;
     background-color: transparent;
-    border-color: $mono-color;
+    border-color: $button-border-color;
 }
 
 .button.button-primary:hover,
 button.button-primary:hover,
 .button.button-primary:focus,
 button.button-primary:focus {
-    color: #FFF;
-    background-color: $mono-color;
-    border-color: $mono-color;
+    color: $button-hover-color;
+    background-color: $button-color;
+    border-color: $button-border-color;
 }
 
 
@@ -141,11 +141,10 @@ button.button-primary:focus {
 */
 
 .intro-header {
-    border-top: 5px solid white;
-    background-color: $mono-color;
+    background-color: $intro-header-bg-color;
     
     .container {
-        background-color: $mono-color;
+        background-color: $intro-header-container-bg-color;
         position: relative;
         z-index: 2;
     }
@@ -172,7 +171,7 @@ button.button-primary:focus {
 .fixed-navbar {
     position: fixed;
     top: 0;
-    background: $mono-color;
+    background: $fixed-navbar-bg-color;
     z-index: 1;
     width: 100%;
 }
@@ -243,10 +242,10 @@ button.button-primary:focus {
         margin:{
             right: 12px;
         }
-        color: darken($mono-color, 10);
+        color: $svg-icon-color;
         cursor: pointer;
         &:hover {
-            color: darken($mono-color, 20);
+            color: $svg-icon-color-hover;
         }
     }
 }
@@ -348,7 +347,7 @@ button.button-primary:focus {
 }
 
 .ch-info h3 {
-    color: #000;
+    color: $ch-info-h3-color;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 18px;
@@ -360,7 +359,7 @@ button.button-primary:focus {
 }
 
 .ch-info p {
-    color: #fff;
+    color: $ch-info-p-color;
     padding: 10px 5px 0;
     font-style: italic;
     margin: 0 30px;
@@ -369,7 +368,7 @@ button.button-primary:focus {
 
 .ch-info p a {
     display: block;
-    color: $mono-color;
+    color: $ch-info-p-a-color;
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
@@ -380,7 +379,7 @@ button.button-primary:focus {
 }
 
 .ch-info p a:hover {
-    color: darken($mono-color, 10%);
+    color: $ch-info-p-a-hover-color;
 }
 
 .ch-item:hover .ch-info-front {
