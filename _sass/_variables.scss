@@ -26,7 +26,7 @@ $hl-color: $darkGray;              // header link color (author name and posted 
 $navbar-hover-color: $white;        // navbar hover color (site name and navbar links hover color)
 $link-color: $darkerGray;        // normal hyperlink color other than the ones above.
 
-$text-color: #090909;
+$text-color: darken($mono-color, 50);
 $text-color-hover: darken($text-color, 20);
 $text-color-medium: lighten($text-color, 35);
 $text-color-light: lighten($text-color, 70);
