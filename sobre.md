@@ -4,11 +4,8 @@ title: Sobre
 permalink: /sobre/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet urna eu dolor placerat varius. Vivamus eros augue, consequat id scelerisque nec, fringilla in est. Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet urna eu dolor placerat varius. Vivamus eros augue, consequat id scelerisque nec, fringilla in est. Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula.  
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet urna eu dolor placerat varius. Vivamus eros augue, consequat id scelerisque nec, fringilla in est. Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula. 
-
-Sed faucibus felis purus, sed convallis leo dictum vehicula.
+Sempre em busca das melhores práticas contemporâneas e futuras, acredito que certo agora é mais barato do que certo depois, código bem escrito é uma dor de cabeça a menos para mim no futuro.
+Código funcionando é crucial, código bem escrito ideal, código testado animal #piadasdetio :grin:
 
 ## Formação
 
@@ -30,27 +27,7 @@ Sed faucibus felis purus, sed convallis leo dictum vehicula.
 * **Frameworks e Metodologias** - `Scrum` / `XP`
 * **Línguas** - `Inglês Avançado`
     
-    
-## Realizações
 
+## Entre em contato
 
-* [**Refatoração para OO usando Testes unitários em sistema legado**](#) 
-   
-   Aplicação de ferramentas e paradigmas contemporâneos de programação em um sistema com problema crônico de bugs e complexidade para diminuir custos de manutenção e possibilitar desenvolvimento mais ágil no futuro da aplicação.
-
-***
-
-* [**This is my second achievement**](#) 
-
-    Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula.
-
-***
-
-* [**This is my third achievement**](#) 
-
-   Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula
-
-
-## Contact me
-
-[agarwal.akshay.akshay8@gmail.com](mailto:agarwal.akshay.akshay8@gmail.com)
+[thiago_eden@hotmail.com](mailto:thiago_eden@hotmail.com)
