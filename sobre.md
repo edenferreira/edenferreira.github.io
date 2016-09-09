@@ -10,15 +10,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet urna eu d
 
 Sed faucibus felis purus, sed convallis leo dictum vehicula.
 
-## Education
+## Formação
 
-* ABC degree from XYZ University.
-* ABC degree from XYZ University.
-* ABC degree from XYZ University.
+* Análise e Desenvolvimento de Sistemas – Faculdade de Tecnologia Dom Amaury Castanho (Fatec - Itu).
+* 
+## Cargos
 
-## Roles
-
-Founder, ABC Organisation
+Estagiário, Mega Sistemas Corporativos.
+Desenvolvedor Trainee, Mega Sistemas Corporativos.
+Desenvolvedor Júnior, GFT Technologies.
+Desenvolvedor Sênior, GFT Technologies.
 
 ## Skills
 
