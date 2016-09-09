@@ -19,8 +19,6 @@ navigation:
     url:
   - text: Sobre
     url: sobre
-  - text: Projects
-    url: projects
 
 navigation-text:
   more: Mais...
