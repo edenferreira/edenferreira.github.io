@@ -13,22 +13,22 @@ Sed faucibus felis purus, sed convallis leo dictum vehicula.
 ## Formação
 
 * Análise e Desenvolvimento de Sistemas – Faculdade de Tecnologia Dom Amaury Castanho (Fatec - Itu).
-* 
+ 
 ## Cargos
 
-Estagiário, Mega Sistemas Corporativos.
-Desenvolvedor Trainee, Mega Sistemas Corporativos.
-Desenvolvedor Júnior, GFT Technologies.
-Desenvolvedor Sênior, GFT Technologies.
+* Estagiário, Mega Sistemas Corporativos.
+* Desenvolvedor Trainee, Mega Sistemas Corporativos.
+* Desenvolvedor Júnior, GFT Technologies.
+* Desenvolvedor Sênior, GFT Technologies.
 
-## Skills
+## Conhecimentos
 
-* **Skill 1** - `Skill` / `Skill` / `Skill` / `Skill`
-* **Skill 2** - `Skill` / `Skill` / `Skill` / `Skill` / `Skill` / `Skill` / `Skill`
-* **Skill 3** - `Skill` / `Skill` / `Skill`
-* **Skill 4** - `Skill` / `Skill` / `Skill` 
-* **Skill 5** - `Skill`
-* **Skill 6** - `Skill` / `Skill` 
+* **Paradigmas de Desenvolvimento** - `Orientação a Objetos` / `Programação Functional`
+* **Front End** - `Javascript` / `HTML5` / `CSS` / `SASS` / `Angular` / `React` / `Responsividade`
+* **Back End** - `Node` / `Python` / `Flask` / `Java` / `SpringMVC`
+* **Banco de Dados** - `MongoDB` / `Oracle`
+* **Frameworks e Metodologias** - `Scrum` / `XP`
+* **Línguas** - `Inglês Avançado`
     
     
 ## Achievements
