@@ -5,7 +5,8 @@ permalink: /sobre/
 ---
 
 Sempre em busca das melhores práticas contemporâneas e futuras, acredito que certo agora é mais barato do que certo depois, código bem escrito é uma dor de cabeça a menos para mim no futuro.
-Código funcionando é crucial, código bem escrito ideal, código testado animal #piadasdetio :grin:
+
+Código funcionando é crucial, código bem escrito ideal, código testado animal. #piadasdetio :grin:
 
 ## Formação
 
