@@ -1,3 +1,18 @@
+---
+layout: default
+---
+
+<div class="">
+  <div class="post-heading">
+      <h1>{{page.title}}</h1>
+      <span class="meta">Posted by <a href="{{ site.baseurl }}/about"> {{page.author}}
+      </a> on {{ page.date | date: "%B %e, %Y" }}
+      </span>
+  </div>
+</div>
+
+{{ content }}
+<!--
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,7 +23,7 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+<!--
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
@@ -46,3 +61,4 @@
     {% include analytics.html %}
   </body>
 </html>
+-->
