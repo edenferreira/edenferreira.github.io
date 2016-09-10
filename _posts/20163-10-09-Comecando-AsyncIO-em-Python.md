@@ -62,15 +62,36 @@ print(result[0]) #just the result of the read
 loop.close()
 {% endhighlight %}
 
-eu até hoje só fiz async de verdade em node, e lá tudo é async, então tive q pensar em como trabalhar com async mas não como certas coisas funcionam por trás.
-python é mais explícito, faz parte do zen, algo q eu gosto, e assim descrobri q ler e escrever um arquivo async não é "de graça" e precisa de uma thread.
-sem problemas, a primeira parte e meia das minhas aventuras no async python vai ser fazer um objeto q le um arquivo de forma assíncrona usando um executor q usarei na continuação.
+Felizmente o retorno desse script foi o esperado:
+{% highlight bash %}
+python3 experiment.py 
+line linha 1
 
-Depois de experimentar algumas coisas e ler algumas docuIentações, SO e exemplos cheguei a isso:
+line linha 2 
 
-criei uma função q fica dormindo para ver a leitura realmente assíncrona, o resultado da execução disso é:
+wait: 7 seconds: 3
+line linha 3
 
-Agora q entendi melhor como funciona isso, vamos fazer um objeto para ler o arquivo de forma assíncrona.
-Começando com um iterable simples, já recebendo o arquivo, além do loop e o executor, como boa inversão de dependência dita.
-Mas isso fica meio chato né, então continuando no async criei um context manager assíncrono para cuidar de abrir e fechar o arquivo de maneira correta, e apenas retorna o iterable para fazermos tudo q temos q fazer, um exemplo de uso no final.
-"Próximo teste unitário?"
+wait: 6 seconds: 4
+line linha 4
+
+wait: 5 seconds: 5
+line linha 5
+
+wait: 4 seconds: 6
+line linha 6
+
+wait: 3 seconds: 7
+line linha 7
+
+wait: 2 seconds: 8
+line linha 8
+
+wait: 1 seconds: 9
+line linha 9
+['linha 1\n', 'linha 2 \n', 'linha 3\n', 'linha 4\n', 'linha 5\n', 'linha 6\n', 'linha 7\n', 'linha 8\n', 'linha 9']
+{% endhighlight %}
+
+Note o '\n' depois e cada linha. Esse não era um arquivo muito criativo. Mas você pode notar que a leitura das linhas foi individual e não bloqueou o a execução da thread principal.
+
+Minha próxima aventura será usar o que aprendi com esse código e criar um iterable assíncrono das linhas dos arquivos.
