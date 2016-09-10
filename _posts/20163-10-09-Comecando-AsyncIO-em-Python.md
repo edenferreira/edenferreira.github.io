@@ -7,11 +7,13 @@ author: Éden Thiago Ferreira
 Até hoje eu só tinha feita async usando javascript/node, e lá é "de graça". Você tem que pensar de forma assíncrona, e se preocupar em como organizar o código de forma a não se perder, como combinar eventos acontecendo em momentos arbitrários, porém a base da assíncronicidade já está feita para você.
 
 Por exemplo, para ler uma arquivo de forma assíncrona em node:
+```javascript
     const fs = require('fs');
     
     fs.readFile('algum_arquivo.bla', (err, res) => {
         doSomething(res);
     });
+```
 
 Em imaginei que fosse uma api que o próprio OS (exportava?), mas quando fui repetir isso em python, tentando não usar bibliotecas de terceiros, descobri que para fazer isso é necessário que a leitura seja feita em uma thread se eu quiser que a leitura não bloqueie a thread principal.
 
