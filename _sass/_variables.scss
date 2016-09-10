@@ -30,6 +30,8 @@ $mono-color-light: lighten($mono-color, 50);
 $hl-color: $darkGray;              // header link color (author name and posted on date) for blog post meta 
 $navbar-hover-color: $white;        // navbar hover color (site name and navbar links hover color)
 $link-color: $darkerGray;        // normal hyperlink color other than the ones above.
+$main-bg-color: $white;
+$body-bg-color: $lightGray;
 
 $text-color: darken($mono-color, 50);
 $text-color-hover: darken($text-color, 20);
