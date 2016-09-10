@@ -18,6 +18,7 @@ Em imaginei que fosse uma api que o próprio OS (exportava?), mas quando fui rep
 O node esconde isso, eu uso a um bom tempo que nunca pensei que fosse uma thread separada (menos curiosidade do que deveria? Provavelmente). Um dos meus zen do python preferios é *Implícito é melhor que explícito*, então pra fazer a leitura de arquivo sem bloquear _EU_ tive que usar thread pela primeira vez em python. (Quem sabe o que algum framework que usei já fez. Falta de curiosidade²).
 
 Todos os exemplos estarão em python 3.5. Aqui eu usei uma async.io e ThreadPoolExecutor para usar o readline do arquivo de forma assíncrona. Também adicionei funções no meio para mostrar que a execução é realmente assíncrona:
+```python
     import asyncio
     from concurrent.futures import ThreadPoolExecutor
     
@@ -29,7 +30,8 @@ Todos os exemplos estarão em python 3.5. Aqui eu usei uma async.io e ThreadPool
         with open(fileName) as f:
             while True:
                 await asyncio.sleep(1)
-                line = await loop.run_in_executor(executor, f.readline)
+                line = await loop.run_in_executor(
+                    executor, f.readline)
                 if line:
                     print('line', line)
                     lines.append(line)
@@ -56,6 +58,7 @@ Todos os exemplos estarão em python 3.5. Aqui eu usei uma async.io e ThreadPool
     ))
     print(result[0]) #just the result of the read
     loop.close()
+```
 
 eu até hoje só fiz async de verdade em node, e lá tudo é async, então tive q pensar em como trabalhar com async mas não como certas coisas funcionam por trás.
 python é mais explícito, faz parte do zen, algo q eu gosto, e assim descrobri q ler e escrever um arquivo async não é "de graça" e precisa de uma thread.
