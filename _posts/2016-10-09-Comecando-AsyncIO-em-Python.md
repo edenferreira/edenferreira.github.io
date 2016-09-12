@@ -15,7 +15,7 @@ fs.readFile('algum_arquivo.bla', (err, res) => {
 });
 {% endhighlight %}
 
-Em imaginei que fosse uma api que o próprio OS (exportava?), mas quando fui repetir isso em python, tentando não usar bibliotecas de terceiros, descobri que para fazer isso é necessário que a leitura seja feita em uma thread se eu quiser que a leitura não bloqueie a thread principal.
+Em imaginei que fosse uma api própria do OS (Como se fala, exportada?), mas quando fui repetir isso em python, tentando não usar bibliotecas de terceiros, descobri que para fazer isso é necessário que a leitura seja feita em uma thread se eu quiser que a leitura não bloqueie a thread principal.
 
 O node esconde isso, eu uso a um bom tempo que nunca pensei que fosse uma thread separada (menos curiosidade do que deveria? Provavelmente). Um dos meus zen do python preferios é *Implícito é melhor que explícito*, então pra fazer a leitura de arquivo sem bloquear _EU_ tive que usar thread pela primeira vez em python. (Quem sabe o que algum framework que usei já fez. Falta de curiosidade²).
 
